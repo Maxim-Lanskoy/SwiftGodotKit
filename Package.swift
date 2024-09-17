@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "SwiftGodotKit",
     platforms: [
-        .macOS(.v13), .iOS(.v15)
+        .macOS(.v14), .iOS(.v15)
     ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
@@ -15,7 +15,7 @@ let package = Package(
             targets: ["SwiftGodotKit"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/migueldeicaza/SwiftGodot", branch: "main")
+        .package(url: "https://github.com/migueldeicaza/SwiftGodot", branch: "4.3")
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -30,8 +30,8 @@ let package = Package(
         ),
         .binaryTarget (
             name: "binary_libgodot",
-            url: "https://github.com/migueldeicaza/SwiftGodotKit/releases/download/v1.1.0/libgodot.xcframework.zip",
-            checksum: "a90f2082714ac652c8aa6c1546a707c00a362b855071afa73a4443ffd96dcea0"
+            url: "https://github.com/migueldeicaza/SwiftGodotKit/releases/download/p4_3-1.0.1/libgodot.xcframework.zip",
+            checksum: "da73a96dc044e7b4feb464bd99f9fbb21d55bcf1f7f4e609690bd85ce3043bc6"
         ),
         .systemLibrary(
             name: "libgodot"
