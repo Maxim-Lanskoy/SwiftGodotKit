@@ -1,9 +1,7 @@
 SwiftGodotKit provides a way of embedding Godot into an existing Swift
 application and driving Godot from Swift, without having to use an
-extension.   This is a companion to [SwiftGodot](https://github.com/migueldeicaza/SwiftGodot) which
+extension. This is a companion to [SwiftGodot](https://github.com/migueldeicaza/SwiftGodot) which
 provides the API binding to the Godot API.
-
-Take a look at the `TrivialSample` here to see how it works.
 
 You will need Swift 5.9 for this (Xcode 15 release candidate will do).
 
@@ -72,7 +70,6 @@ runGodot(args: [], initHook: registerTypes, loadScene: loadScene, loadProjectSet
 A standalone sample that you can use as a starting point is available here, when used as SwiftPM:
 
 https://github.com/migueldeicaza/SwiftGodotKit/tree/main/StandaloneExample
-
 
 # Sausage Making Details 
 
