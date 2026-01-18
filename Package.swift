@@ -14,7 +14,7 @@ let package = Package(
         .library(name: "SwiftGodotKit", targets: ["SwiftGodotKit"])
     ],
     dependencies: [
-        .package(url: "https://github.com/Maxim-Lanskoy/SwiftGodot", branch: "main")
+        .package(url: "https://github.com/Maxim-Lanskoy/SwiftGodot", branch: "rpc-macro")
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
